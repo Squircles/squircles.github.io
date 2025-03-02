@@ -56,13 +56,13 @@ body {
 
 .game {
   width: fit-content;
-  border-radius: 10px;
+  border-radius: 24px;
   background: #fff;
   padding: 20px;
 }
 
 .game .cover {
-  border-radius: 10px;
+  border-radius: 4px;
 }
 
 .game p {
