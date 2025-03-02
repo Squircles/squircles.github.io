@@ -8,6 +8,7 @@
 body {
   font-family: Inter;
   background: var(--bg);
+  margin: 0;
 }
 
 .sidenav {
@@ -50,12 +51,12 @@ body {
 }
 
 .main {
-  margin-left: 240px; /* Same as the width of the sidenav */
-  padding: 5px 20px;
+  margin-left: 250px; /* Same as the width of the sidenav */
+  padding: 15px;
 }
 
 .game {
-  width: fit-content;
+  width: 250px;
   border-radius: 20px;
   background: #fff;
   padding: 16px;
@@ -72,6 +73,7 @@ body {
 
 .game .details {
   margin-top: 15px;
+  overflow: hidden;
 }
 
 .game .creator {
@@ -79,17 +81,21 @@ body {
   font-weight: bold;
   text-transform: uppercase;
   font-size: 12px;
+  max-height: 15.2px;
 }
 
 .game .name {
   font-weight: bold;
   font-size: 20px;
+  max-height: 72px;
 }
 
 .game .rating {
   color: #0008;
+  max-height: 19.2px;
 }
 
 .game .description {
   color: #0008;
+  max-height: 57.6px;
 }
