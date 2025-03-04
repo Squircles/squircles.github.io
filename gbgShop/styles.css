@@ -52,7 +52,7 @@ body {
 
 .main {
   margin-left: 250px; /* Same as the width of the sidenav */
-  padding: 15px;
+  padding: 20px;
 }
 
 .game {
@@ -60,11 +60,11 @@ body {
   border-radius: 20px;
   background: #fff;
   padding: 16px;
-  transition: 0.2s;
+  transition: 0.25s;
 }
 
 .game:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 .game .cover {
